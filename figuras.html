@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas| áreas y perímetros</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras geométricas </h1>
+        <p> Este es el taller practico de JavaScript</p>
+    </header>
+
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form>
+            <label for = "InputCuadrado">
+                Escribe cuanto mide el lado de tu cuadrado
+            </label>
+            <input type ="number" id= "InputCuadrado">
+            <button type ="button" onclick ="calcularPerimetroCuadrado()">
+                Calcular el perímetro
+            </button>
+            <button type ="button" onclick ="calcularAreaCuadrado()">
+                Calcular el área
+            </button><br>
+            <h3 id = "resultadoCuadrado"> </h3>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula el area y la circunferencia de un circulo</h2>
+        <form>
+            <label for = "InputCirculo">
+                Escribe cuanto mide el radio del circulo
+            </label>
+            <input type ="number" id= "InputCirculo">
+            <button type ="button" onclick ="calcularPerimetroCirculo()">
+                Calcular el circunferencia
+            </button>
+            <button type ="button" onclick ="calcularAreaCirculo()">
+                Calcular el área
+            </button><br>
+            <h3 id = "resultadoCirculo"> </h3>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula la altura de un triangulo isóceles</h2>
+        <form>
+            <label for = "InputLado1">
+                Escribe los lados del triangulo
+            </label><br>
+            <p>Lado 1</p>
+            <input type ="number" id= "InputLado1"><br>
+            <p>Lado 2</p>
+            <input type ="number" id= "InputLado2"><br>
+            <p>Lado 3</p>
+            <input type ="number" id= "InputLado3"><br><br>
+            <button type ="button" onclick ="mostrarAltura()">
+                Calcular altura de triangulo isóceles
+            </button>
+            <h3 id = "resultadoAltura"> </h3>
+        </form>
+    </section>
+
+
+
+    <script src= "figuras.js">
+    </script>
+    
+</body>
+</html>
