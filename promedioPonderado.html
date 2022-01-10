@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio Ponderado</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Promedio Ponderado
+        </h1>
+    </header>
+    <section>
+        <h2>Ingresa tus notas y su peso de la nota final</h2>
+        <form>
+            <label>Ingresa tu nota</label>
+            <input id ="userNota" type="number"><br><br>
+
+            <label>Ingresa el peso de tu nota</label>
+            <input id ="userPeso" type="number"><br><br>
+
+            <button type="button" onclick="ingresarNotas()">
+                Añadir nota
+            </button><br><br>
+            
+        </form>
+    </section>
+
+    <p id="mostrarNotas"></p>
+    
+    <button type="button" onclick="calcularPromedioPonderado()">
+        Calcular promedio Ponderado
+    </button><br>
+    <h3 id ="resultado"></h3>
+
+    <script src ="promedioPonderado.js"></script>
+</body>
+</html>
