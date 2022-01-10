@@ -14,3 +14,9 @@
 - segundo: implementar formulas en java script
 - tercero: crear funciones
 - cuarto: integrar JS con HTML
+
+## taller 3: promedio, mediana y moda
+- primero: definir formulas
+- segundo: implementar formulas en java script
+- tercero: crear funciones
+- cuarto: integrar JS con HTML
