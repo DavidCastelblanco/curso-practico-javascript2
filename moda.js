@@ -24,7 +24,7 @@ function calcularModa(lista)
         }
     );
     const moda=listaArray[listaArray.length-1];
-
+        console.log(lista1);
     return moda
     
 }
